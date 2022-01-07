@@ -12,9 +12,9 @@ pipeline {
 				//sh 'node --version'
 				echo "Build"
 				echo "path- $PATH"
-				echo "Build_number- $env.BUILD_NUMBER"
-				echo "build_id- $env.BUILD_ID"
-				echo "build_tag- $env.BUILD_TAG"
+				echo "Build_number- $BUILD_NUMBER"
+				echo "build_id- $BUILD_ID"
+				echo "build_tag- $BUILD_TAG"
 			}
 		}
 
